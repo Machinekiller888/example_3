@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Column(           
             children: [
-              Icon(Icons.call),
+              Icon(Icons.call,color:Colors.red),
               Text("Call"),
             ],
           ),
